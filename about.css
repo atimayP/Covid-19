@@ -1,0 +1,20 @@
+body {
+    background-image: url('img/about.jpg');
+  }
+
+.profile{
+    width: 2000px;
+    height: 520px;
+    background:rgb(190, 151, 216);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:white;
+}
+
+.box{
+border-radius: 50%;
+width: 250px;
+height: 250px;
+}

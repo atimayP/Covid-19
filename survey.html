@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Survey</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">COVID-19</a>   
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="country.html">Country</a>
+          </li>
+	    <li class="nav-item">
+          <a class="nav-link" href="survey.html">Survey <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Action 1</a>
+                <a class="dropdown-item" href="#">Action 2</a>
+            </div>
+        </li>
+    </div>
+  </nav>
+
+<section class="home_banner_area">
+    <div class="container box_1620">
+      <div class="banner_inner d-flex align-items-center">
+
+        <div class="container">
+
+          <div class="alert alert-primary" role="alert">
+            <h3 align='center'>แบบสอบถาม สำหรับคัดกรองโรคไวรัสโคโรนา(COVID-19)<br>
+              (SCREENING QUESTIONNAIRE COVID-19)
+            </h3>
+          </div>
+
+          <div class="alert alert-danger" role="alert">
+            <h4 align='center'>ขอความร่วมมือท่านให้ข้อมูลที่ถูกต้องเป็นความจริง เพื่อประโยชน์
+              ในการรักษาและป้องกันการแพร่กระจายเชื้อ
+            </h4>
+          </div>
+
+
+
+          <div class="container">
+
+            <div class="col">
+              <form action="#" id="mainform" novalidate>
+
+                <form>
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" required name="fname" id="fname" class="form-control" placeholder="First name">
+
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+
+                      <div class="valid-feedback">
+                        Please fill in your name.
+                      </div>
+                    </div>
+
+
+
+                    <div class="col">
+                      <input type="text" required name="lname" id="lname" class="form-control" placeholder="Last name">
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+
+                      <div class="valid-feedback">
+                        Please fill in your Lastname.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col">
+                      <input type="text" required name="email" id="email" class="form-control" placeholder="E-mail">
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+
+                      <div class="valid-feedback">
+                        Please fill in your E-mail.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row mt-3">
+                    <div class="col">
+                      <input type="password" required name="passwd" id="nationid" class="form-control"
+                        placeholder="NationID">
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+
+                      <div class="valid-feedback">
+                        Please fill in your Nation ID.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row mt-3">
+                    <div class="col">
+                      <input type="text" required name="address" id="address" class="form-control"
+                        placeholder="Address">
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+
+                      <div class="valid-feedback">
+                        Please fill in your Address.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row mt-3">
+                    <div class="col">
+                      <input type="text" pattern="[0-9]{3}[0-9]{7}" required name="tel" id="tel" class="form-control"
+                        placeholder="Tel">
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+
+                      <div class="valid-feedback">
+                        Please fill in your Mobile Number.
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+
+                  
+                  <br>
+                  <div class="alert alert-success" role="alert">
+                    <h6>ในปัจจุบันคุณมีอาการดังต่อไปนี้หรือไม่ โปรดระบุ</h6>
+                  </div>
+
+                  <h6 class="display-6">1.ไอ/เจ็บคอ</h6>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline4" name="customRadioInline2" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline4">Yes/ใช่</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline5" name="customRadioInline2" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline5">No/ไม่ใช่</label>
+                  </div>
+
+                  <h6 class="display-7">2.มีน้ำมูก</h6>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline6" name="customRadioInline3" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline6">Yes/ใช่</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline7" name="customRadioInline3" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline7">No/ไม่ใช่</label>
+                  </div>
+
+                  <h6 class="display-8">3.หายใจเหนื่อย หรือ หายใจลำบาก</h6>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline8" name="customRadioInline4" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline8">Yes/ใช่</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline9" name="customRadioInline4" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline9">No/ไม่ใช่</label>
+                  </div>
+
+
+                  <h6 class="display-9">4.คุณมีอาการใดๆที่มีอยู่ซึ่งจะทำให้ระบบภูมิคุ้มกันอ่อนแอลง</h6>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline10" name="customRadioInline5" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline10">Yes/ใช่</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline11" name="customRadioInline5" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline11">No/ไม่ใช่</label>
+                  </div>
+
+                  <br><br>
+                  <div class="alert alert-success" role="alert">
+                    <h6>ในช่วง 14 วันที่ผ่านมาคุณเดินทาง หรือแวะผ่านในประเทศใดๆ ด้านล่างหรือไม่</h6>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">จีน(Chaina)</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">มาเก๊า(Macao)</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                    <label class="custom-control-label" for="customCheck3">ฮ่องกง(Hong Kong)</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                    <label class="custom-control-label" for="customCheck4">เกาหลีใต้(South Korea)</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                    <label class="custom-control-label" for="customCheck5">อิตาลี(Italy)</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                    <label class="custom-control-label" for="customCheck6">อิหร่าน(Iran)</label>
+                  </div>
+
+                  <br><br>
+                  <div class="alert alert-success" role="alert">
+                    <h6>ในช่วง 14 วันที่ผ่านมาคุณสัมผัสใกล้ชิดกับคนที่มาจกพื้นที่ ที่มีรายงานการระบาดต่อเนื่อง
+                      ของโรค COVID-19 หรือ สัมผัสกับผู้ป่วยเข้าข่าย หรือ ยืนยันโรค COVID-19 หรือไม่
+                    </h6>
+                  </div>
+
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline12" name="customRadioInline6" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline12">Yes/ใช่</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline13" name="customRadioInline6" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline13">No/ไม่ใช่</label>
+                  </div>
+
+
+
+                  <div class="row mt-5">
+                    <div class="col">
+                      <button class="btn btn-success" type="submit">Register</button>
+                      <button class="btn btn-warning" type="reset">Reset</button>
+
+                    </div>
+                  </div>
+                </form>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"></script>
+
+        <script>
+          $(function () {
+            $("#mainform").submit(function (event) {
+              console.log("submitted");
+              if ($("#mainform")[0].checkValidity() == false) {
+                event.preventDefault();
+              }
+              $("#mainform").addClass("was-validated");
+            })
+
+
+          })
+        </script>
+
+
+</body>
+
+</html>
+      

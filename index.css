@@ -20,17 +20,18 @@ i {
     padding: 15px;
     text-align: center;
     border-radius: 15px;
-    background: #330066;
+    background:rgb(89, 76, 110);
     
 }
 .box_wrapper {
+  width: 48%;
   margin-top: 10px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   padding: 15px;
   text-align: center;
   border-radius: 15px;
-  background: orangered;
+  background: rgb(148, 92, 120);
+  height: 134px;
   
  
 }
@@ -49,7 +50,7 @@ i {
     text-align: center;
 }
 .table-responsive{
-    height: 400px;;
+    height: 400px;
 }
 #myInput {
     border-radius: 15px;
@@ -60,4 +61,10 @@ i {
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
     margin-bottom: 12px;
+  }
+
+  .sub{
+    width: 100%;
+    display: flex;
+
   }

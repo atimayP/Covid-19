@@ -1,18 +1,23 @@
-$(function () {
+$(document).ready(function () {
+    getdata();
+})
 
+
+function getdata(){
     var url = "https://pomber.github.io/covid19/timeseries.json";
 
     $.getJSON(url, function (result) {
 
         var no = 1;
         for (var country in result) {
-
-            var row = `<tr>
+                var row = `<tr style="color: black;">
                         <th scope="row">${no}</th>
                         <td>
                         <a href="country.html?country=${country}">${country}</a>
                         </td>
                     </tr>`;
+          
+            
 
             $("#data").append(row);
             no++;
@@ -20,8 +25,30 @@ $(function () {
         }
 
     });
+}
 
-})
+
+
+      
+function search() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }       
+    }
+  }
+
 
 let Confirmed = document.getElementById('Confirmed');
 let Death = document.getElementById('Death');

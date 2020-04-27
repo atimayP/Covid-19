@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 i {
     color: dimgray;
@@ -41,6 +42,22 @@ i {
     border: none;
 }
 
-table{
-    margin-top: 50px;
+.mytable{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
 }
+.table-responsive{
+    height: 400px;;
+}
+#myInput {
+    border-radius: 15px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 80%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
